@@ -52,23 +52,27 @@ header{
     height: 30px;
     background-color: #daa520;
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
 .width_logo{
     padding-left: 10px;
-    padding-right: 100px;
+    width: 20%;
+}
+
+.width_link{
+    width: 60%;
 }
 
 .width_login{
-    padding-right: 10px;
-    padding-left: 100px;
+    padding-left: 90px;
+    width: 20%;
 }
 
 .link{
     list-style: none;
     display: flex;
+    justify-content: center;
 }
 
 li{
