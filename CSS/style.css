@@ -35,6 +35,10 @@
     background-color: black;
 }
 
+
+/* sezione header */
+
+
 header{
     padding-top: 10px;
     padding-bottom: 10px;
@@ -44,15 +48,36 @@ header{
     margin-bottom: 40;
 }
 
-.header{
+.nav{
     background-color: #daa520;
     display: flex;
     justify-content: space-between;
 }
 
+.width_logo{
+    padding-left: 10px;
+    padding-right: 100px;
+}
+
+.width_login{
+    padding-right: 10px;
+    padding-left: 100px;
+}
+
 .link{
+    list-style: none;
     display: flex;
 }
+
+li{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* /sezione header */
+
+
+/* sezione main */
 
 main > section{
     padding-top: 30px;
@@ -63,3 +88,5 @@ main > section{
     width: 800px;
     margin: 0 auto;
 }
+
+/* /sezione main */
