@@ -1,3 +1,5 @@
+/* impostazioni su tutto il contenuto  */
+
 *{
     border: 1px dotted black;
     margin: 0;
@@ -5,15 +7,9 @@
     box-sizing: border-box;
 }
 
-/* classe debug da levare alla fine */
+/* /impostazioni su tutto il contenuto  */
 
-.debug main section .row{
-    height: 300px;
-    /* background-color:#ee82ee;  */
-    display: flex;
-}
-
-/* classe debug da levare alla fine */
+/* impostazioni colori sfondi  */
 
 .bg_azure{
     background-color:azure;
@@ -35,6 +31,7 @@
     background-color:#23272a;
 }
 
+/* /impostazioni colori sfondi  */
 
 /* sezione header */
 
@@ -86,6 +83,11 @@ li{
 
 /* sezione main */
 
+main section .row{
+    height: 300px;
+    display: flex;
+}
+
 main > section{
     padding-top: 30px;
     padding-bottom: 30px;
@@ -118,26 +120,46 @@ main > section{
     flex-direction: row-reverse;
 }
 
-.section_5{
-    background-color:#228b22;
-    height:600px;
+#section_5{
+    height: 600px;
+    background-color:#228b22; 
 }
 
 /* /come section 2 ma invertito  */
 
 
-
 /* 
 
-
-
-
 background-color:#f08080;
-background-color:#20b2aa;
+
 background-color:#7fffd4;
 background-color:#7fffd4;
 background-color:#ffb6c1;
 
 */
 
+
 /* /sezione main */
+
+/* sezione footer  */
+
+footer > div{
+    color: white;
+    display: flex;
+    height: 300px;
+    background-color:#23272a;
+}
+
+.foot_section_1{
+    justify-content: center;
+}
+
+hr{
+    color: white;
+}
+#foot_section_2{
+    height: 100px;
+}
+
+
+/* /sezione footer  */
