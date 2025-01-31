@@ -1,9 +1,19 @@
 *{
+    border: 1px dotted black;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px dotted black;
 }
+
+/* classe debu da levare alla fine */
+
+.debug main section .row{
+    height: 300px;
+    background-color: violet;
+
+}
+
+/* classe debug da levare alla fine */
 
 .bg_azure{
     background-color:azure;
@@ -20,7 +30,6 @@
 .bg_gray{
     background-color: gray;
 }
-
 
 .bg_black{
     background-color: black;
@@ -43,4 +52,14 @@ header{
 
 .link{
     display: flex;
+}
+
+main > section{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.container{
+    width: 800px;
+    margin: 0 auto;
 }
