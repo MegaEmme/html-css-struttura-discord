@@ -9,6 +9,7 @@
 
 /* /impostazioni su tutto il contenuto  */
 
+
 /* impostazioni colori sfondi  */
 
 .bg_azure{
@@ -32,6 +33,7 @@
 }
 
 /* /impostazioni colori sfondi  */
+
 
 /* sezione header */
 
@@ -98,10 +100,9 @@ main > section{
     margin: 0 auto;
 }
 
-.section_1{
+.bg_blue > .container{
     background-color:#ee82ee ;
     width: 600px;
-    margin: auto;
 }
 
 .big_square{
@@ -120,44 +121,41 @@ main > section{
     flex-direction: row-reverse;
 }
 
+/* /come section 2 ma invertito  */
+
 #section_5{
     height: 600px;
     background-color:#228b22; 
 }
 
-/* /come section 2 ma invertito  */
-
-
-/* 
-
-background-color:#f08080;
-
-background-color:#7fffd4;
-background-color:#7fffd4;
-background-color:#ffb6c1;
-
-*/
-
-
 /* /sezione main */
+
 
 /* sezione footer  */
 
 footer > div{
     display: flex;
-    height: 300px;
+    height: 600px;
     background-color:#23272a;
 }
 
 .foot_section_1{
     padding-top: 10px;
-    padding-bottom: 20px;
     justify-content: center;
 }
 
 #ante_footer{
     background-color: #f08080;
     width: 800px;
+    height: 90%;
+    display: flex;   
+    justify-content: flex-end; 
+}
+
+#ante_footer_2{
+    background-color: #20b2aa;
+    width: 133px;
+    border: 1px dotted white;
 }
 
 hr{
