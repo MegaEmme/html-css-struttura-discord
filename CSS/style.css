@@ -24,15 +24,15 @@
 }
 
 .bg_blue{
-    background-color: blue;
+    background-color:#00008b;
 }
 
 .bg_gray{
-    background-color: gray;
+    background-color:#d3d3d3;
 }
 
 .bg_black{
-    background-color: black;
+    background-color:#23272a;
 }
 
 
@@ -49,9 +49,11 @@ header{
 }
 
 .nav{
+    height: 30px;
     background-color: #daa520;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .width_logo{
