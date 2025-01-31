@@ -1,6 +1,29 @@
 *{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    border: 1px solid red;
+    border: 1px dotted black;
+}
+
+.bg_azure{
+    background-color:azure;
+}
+
+.bg_white{
+    background-color: white;
+}
+
+.bg_blue{
+    background-color: blue;
+}
+
+.bg_gray{
+    background-color: gray;
+}
+
+
+.bg_black{
+    background-color: black;
 }
 
 header{
@@ -9,7 +32,7 @@ header{
     padding-left: 100px;
     padding-right: 100px;
     background-color: #add8e6;
-    margin-bottom: 10 40;
+    margin-bottom: 40;
 }
 
 .header{
