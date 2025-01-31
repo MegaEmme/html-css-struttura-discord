@@ -9,7 +9,8 @@
 
 .debug main section .row{
     height: 300px;
-    background-color:#ee82ee;
+    /* background-color:#ee82ee;  */
+    display: flex;
 }
 
 /* classe debug da levare alla fine */
@@ -64,8 +65,9 @@ header{
 }
 
 .width_login{
-    padding-left: 90px;
+    text-align: end;
     width: 20%;
+    padding-right: 10px;
 }
 
 .link{
@@ -95,19 +97,41 @@ main > section{
 }
 
 .section_1{
+    background-color:#ee82ee ;
     width: 600px;
     margin: auto;
 }
 
+.big_square{
+    width: 60%;
+    background-color:#1e90ff;
+}
 
+.small_square{
+    width: 40%;
+    background-color:#ffc0cb;
+}
+
+/* come section 2 ma invertito  */
+
+.section_3{
+    flex-direction: row-reverse;
+}
+
+.section_5{
+    background-color:#228b22;
+    height:600px;
+}
+
+/* /come section 2 ma invertito  */
 
 
 
 /* 
 
-background-color:#1e90ff;
-background-color:#ffc0cb; 
-background-color:#228b22;
+
+
+
 background-color:#f08080;
 background-color:#20b2aa;
 background-color:#7fffd4;
