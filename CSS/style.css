@@ -107,6 +107,10 @@ main > section{
     width: 600px;
 }
 
+#blue{
+    height: 200px;
+}
+
 .big_square{
     width: 60%;
     background-color:#1e90ff;
