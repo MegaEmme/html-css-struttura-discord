@@ -1,7 +1,7 @@
 /* impostazioni su tutto il contenuto  */
 
 *{
-    border: 1px dotted black;
+    border: 1px dashed black;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -160,7 +160,7 @@ footer > div{
 #ante_footer_2{
     background-color: #20b2aa;
     width: 133px;
-    border: 1px dotted white;
+    border: 1px dashed white;
 }
 
 hr{
@@ -168,6 +168,8 @@ hr{
 }
 
 #foot_section_2{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
     padding-top: 20px;
     justify-content: center;
     height: 100px;
@@ -188,3 +190,21 @@ hr{
 
 
 /* /sezione footer  */
+
+
+
+
+
+
+/* 
+
+font awesome (come cambiare parametri icone)
+
+i{
+    font-size: 100px;
+    color: red;
+    background-color: blue;
+
+} 
+    
+*/
