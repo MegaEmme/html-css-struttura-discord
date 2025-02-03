@@ -48,6 +48,8 @@ header{
 }
 
 .nav{
+    margin: auto;
+    width: 800px;
     height: 30px;
     background-color: #daa520;
     display: flex;
